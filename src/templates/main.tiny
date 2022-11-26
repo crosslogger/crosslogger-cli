@@ -1,0 +1,10 @@
+zstack:
+    vstack:
+        hstack:
+            border [padding-right: 2, padding-left: 2]:
+                text: "IP: "
+                    span: "{{ ip }}"
+        // Left pane
+        expand [factor: 50, margin: 0]:
+            border [width: 1000, height: 1000]:
+                scrollview [id: 4]:

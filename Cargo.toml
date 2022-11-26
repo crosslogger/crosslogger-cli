@@ -1,0 +1,20 @@
+[package]
+name = "crosslogger-cli"
+version = "0.1.0"
+edition = "2021"
+authors = ["PerfectlyFineCode <perfectlyfinecode@gmail.com>"]
+license = "MIT"
+description = "Crosslogger CLI frontend for crosslogger library"
+readme = "README.md"
+homepage = "https://github.com/crosslogger/"
+repository = "https://github.com/you/grrs"
+keywords = ["cli", "search", "demo"]
+categories = ["command-line-utilities"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anathema = "0.1.1-alpha"
+crosslogger = { path = "../crosslogger" }
+crosslogger-server = { path = "../crosslogger-server" }
+chrono = "0.4.23"
