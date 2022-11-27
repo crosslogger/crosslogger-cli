@@ -1,0 +1,13 @@
+[package]
+name = "crosslogger"
+version = "0.1.0"
+edition = "2021"
+authors = ["PerfectlyFineCode"]
+keywords = ["logging", "cross-platform"]
+categories = ["logging"]
+description = "A simple remote logging library for Rust that works on all platforms."
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
